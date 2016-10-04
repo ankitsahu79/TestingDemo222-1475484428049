@@ -23,5 +23,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/IBM_ADMIN/Documents/SametimeFileTransfers/Corefiles/selenium-server-standalone-2.45.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
