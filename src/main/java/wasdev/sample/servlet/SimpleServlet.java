@@ -21,7 +21,14 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("Hello World!");
+        response.getWriter().print("Hello World Ankit!");
+        System.out.println("pankaj is teaching me");
+    	try {
+			SeleniumTest.openBrowser();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 
 }
